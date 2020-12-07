@@ -364,8 +364,12 @@ h1{
 
 .social-networks-link:hover,
 .social-networks-link:focus{
-    fill: #ffffff;
     background-color: var(--link-color);
+}
+
+.social-networks-link:hover .social-icons-svg,
+.social-networks-link:focus .social-icons-svg {
+    fill: #ffffff;
 }
 
 /* footer */
