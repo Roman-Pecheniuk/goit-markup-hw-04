@@ -359,7 +359,7 @@ h1{
 .social-icons-svg{
     width: 20px;
     height: 20px;
-    fill: #111113;
+    fill: var(--social-networks-icons);
 }
 
 .social-networks-link:hover,
