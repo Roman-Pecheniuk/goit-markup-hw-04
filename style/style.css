@@ -5,6 +5,7 @@
     --btn2-color: #F5F4FA;
     --bgc2-color: #2F303A;
     --bgc3-color: #ffffff;
+    --social-networks-icons: #AFB1B8;
 }
 
 html{
@@ -334,7 +335,37 @@ h1{
     font-size: 14px;
     line-height: 1.18;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks-item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+.social-networks-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.social-icons-svg{
+    width: 20px;
+    height: 20px;
+    fill: var(--social-networks-icons);
+}
+
+.social-networks-link:hover,
+.social-networks-link:focus{
+    fill: #ffffff;
+    background-color: var(--link-color);
 }
 
 /* footer */
