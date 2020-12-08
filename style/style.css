@@ -420,6 +420,9 @@ footer{
     background-color:var(--bgc2-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.footer .container {
     display: flex;
 }
 
@@ -429,6 +432,21 @@ footer{
 
 .footer .contact-list{
     margin-top: 20px;
+}
+
+.footer-social .title{
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer .social-networks-item{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.footer .social-icons-svg{
+    fill: #ffffff;
 }
 
 .link{
