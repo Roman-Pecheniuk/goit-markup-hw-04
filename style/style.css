@@ -37,7 +37,6 @@ h4 {
   margin-bottom: 0;
 }
 
-
 .text,
 .list,
 .features .list,
@@ -60,7 +59,7 @@ a{
     padding-right: 15px;
 }
 
-.main-nav{
+.header .main-nav{
     display: flex;
     align-items: center;
 }
@@ -106,7 +105,15 @@ a{
 .contact-list .link:hover,
 .contact-list .link:focus{
     color: var(--link-color);
+    fill: var(--link-color);
 }
+
+.nav-icons-svg{
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+/* features */
 
 .feature-item::before{
     content: '';
