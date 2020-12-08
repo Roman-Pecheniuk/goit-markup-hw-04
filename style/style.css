@@ -92,6 +92,11 @@ a{
     margin-left: auto;
 }
 
+.contact-list .link {
+    display: flex;
+    align-items: center;
+}
+
 .header .item:not(:last-child){
     margin-right: 50px;
 }
@@ -379,6 +384,34 @@ h1{
     fill: #ffffff;
 }
 
+/* clients */
+
+.clients-list{
+    display: flex;
+    justify-content: center;
+}
+
+.clients-item-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+}
+
+.clients-item:not(:last-child){
+    margin-right: 30px;    
+}
+
+.clients-item-link:hover,
+.clients-item-link:focus{
+    fill:var(--link-color);
+    border: 1px solid var(--link-color);
+}
+
 /* footer */
 
 footer{
@@ -387,6 +420,11 @@ footer{
     background-color:var(--bgc2-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
+    display: flex;
+}
+
+.footer-contacts{
+    margin-right: 70px;
 }
 
 .footer .contact-list{
